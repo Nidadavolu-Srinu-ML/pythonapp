@@ -1,6 +1,8 @@
 import os
 import sys
 sys.path.append('.')
+username = "admin"
+password = "admin"
 
 from server.webapp import flaskapp, database, cursor, TEMPLATES
 from server.models import *
@@ -22,11 +24,7 @@ if __name__ == "__main__":
         '''CREATE TABLE books (name text, author text, read text)'''
     )
     
-username = 'admin'
-password = 'admin' 
-
     for bookname, bookauthor, hasread in default_books:
-        for bookname, bookauthor, hasread in default_books:
         try:
             cursor.execute(
                 'INSERT INTO books values (?, ?, ?)',

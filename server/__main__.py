@@ -23,6 +23,7 @@ if __name__ == "__main__":
     )
 
     for bookname, bookauthor, hasread in default_books:
+        for bookname, bookauthor, hasread in default_books:
         try:
             cursor.execute(
                 'INSERT INTO books values (?, ?, ?)',

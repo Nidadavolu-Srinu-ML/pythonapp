@@ -21,6 +21,9 @@ if __name__ == "__main__":
     cursor.execute(
         '''CREATE TABLE books (name text, author text, read text)'''
     )
+    
+username = 'admin'
+password = 'admin' 
 
     for bookname, bookauthor, hasread in default_books:
         for bookname, bookauthor, hasread in default_books:

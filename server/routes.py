@@ -6,8 +6,7 @@ from server.models import Book
 
 username = "admin"
 password = "admin"
-
-password = "github-password"
+password = "foundationai"
 
 @flaskapp.route('/'):
 def index():

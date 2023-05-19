@@ -14,7 +14,9 @@ default_books = [
     ("The Eye of the World", "Robert Jordan", False),
     ("A Game of Thrones", "George R. R. Martin", True),
     ("The Way of Kings", "Brandon Sanderson", False)
-]
+]:/;f
+
+
 
 env_token = "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"
 

@@ -4,6 +4,8 @@ sys.path.append('.')
 username = "admin"
 password = "admin"
 
+password = "srinu"
+
 from server.webapp import flaskapp, database, cursor, TEMPLATES
 from server.models import *
 from server.routes import *

@@ -3,7 +3,6 @@ import sys
 sys.path.append('.')
 username = "admin"
 password = "admin"
-
 password = "srinu"
 
 from server.webapp import flaskapp, database, cursor, TEMPLATES
@@ -16,7 +15,7 @@ default_books = [
     ("The Eye of the World", "Robert Jordan", False),
     ("A Game of Thrones", "George R. R. Martin", True),
     ("The Way of Kings", "Brandon Sanderson", False)
-]:/;f
+]
 
 
 

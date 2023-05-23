@@ -1,3 +1,3 @@
-password = "init"
-password = "init2"
+pwd = "init"
+psw = "init2"
 

@@ -3,12 +3,13 @@ import sys
 sys.path.append('.')
 
 password = "123efhNkl@m"
+password = "hello123"
 
 from server.webapp import flaskapp, database, cursor, TEMPLATES
 from server.models import *
 from server.routes import *
 
-default_books = [
+default_books = [:/
     ("The Hobbit", "JRR Tolkien", True),
     ("The Fellowship of the Ring", "JRR Tolkien", True),
     ("The Eye of the World", "Robert Jordan", False),

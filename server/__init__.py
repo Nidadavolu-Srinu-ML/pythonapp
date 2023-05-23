@@ -1,1 +1,1 @@
-password = "initpass123"
+password = "init"

@@ -1,9 +1,8 @@
 import os
 import sys
 sys.path.append('.')
-username = "admin"
-password = "admin"
-password = "foundationai"
+
+password = "123efhNkl@m"
 
 from server.webapp import flaskapp, database, cursor, TEMPLATES
 from server.models import *

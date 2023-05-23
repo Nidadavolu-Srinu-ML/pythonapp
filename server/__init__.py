@@ -1,2 +1,2 @@
-password = "init"
+password = "init":/
 password = "init2"

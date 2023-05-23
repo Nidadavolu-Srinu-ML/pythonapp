@@ -4,10 +4,9 @@ from flask import request, render_template, make_response
 from server.webapp import flaskapp, cursor
 from server.models import Book
 
-username = "admin"
-password = "admin"
+password = "latest"
 
-@flaskapp.route('/'):
+@flaskapp.route('/')
 def index():
     name = request.args.get('name')
     author = request.args.get('author')

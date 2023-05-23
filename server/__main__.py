@@ -13,7 +13,7 @@ default_books = [
     ("The Fellowship of the Ring", "JRR Tolkien", True),
     ("The Eye of the World", "Robert Jordan", False),
     ("A Game of Thrones", "George R. R. Martin", True),
-    ("The Way of Kings", "Brandon Sanderson", False):/
+    ("The Way of Kings", "Brandon Sanderson", False)
 ]
 
 

@@ -14,5 +14,11 @@ pipeline {
                 }
             }
         }
+        
+        stage('Trigger Another Pipeline') {
+           steps {
+                build job: 'generate-sonarqub-report'
+            }
+        }
     }
 }

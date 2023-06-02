@@ -14,11 +14,5 @@ pipeline {
                 }
             }
         }
-        
-        stage('Generating Sonarqube report') {
-           steps {
-                build job: 'generate-sonarqube-report'
-            }
-        }
     }
 }

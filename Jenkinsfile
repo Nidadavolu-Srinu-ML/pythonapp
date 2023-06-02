@@ -15,9 +15,9 @@ pipeline {
             }
         }
         
-        stage('Trigger Another Pipeline') {
+        stage('Generating Sonarqube report') {
            steps {
-                build job: 'generate-sonarqub-report'
+                build job: 'generate-sonarqube-report'
             }
         }
     }

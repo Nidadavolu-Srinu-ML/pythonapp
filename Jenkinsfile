@@ -4,11 +4,6 @@ pipeline {
     }
     stages {
         // Define your pipeline stages here
-        stage('SCM') {
-            steps {
-               checkout scm
-            }
-        }
         stage('SonarQube Analysis') {
             steps {
                 script  {
